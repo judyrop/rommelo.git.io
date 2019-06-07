@@ -150,31 +150,7 @@
             </div>
         </div>
     </div>
-    <div width="100Vw">
-        <div class="container-contact100">
-            <div class="contact100-map" id="google_mapp" data-map-x="-1.2347935" data-map-y="36.6730017"
-                data-pin="assets/plugins/ContactForm/images/icons/map-marker.png" data-scrollwhell="0"
-                data-draggable="1"></div>
-            <!-- <div id="map"></div> -->
-            <script>
-                function initMap() {
-                    var myLatLng = { lat: -1.2347935, lng: 36.6730017 };
-
-                    // Create a map object and specify the DOM element
-                    // for display.
-                    var map = new google.maps.Map(document.getElementById('google_mapp'), {
-                        center: myLatLng,
-                        zoom: 17
-                    });
-
-                    // Create a marker and set its position.
-                    var marker = new google.maps.Marker({
-                        map: map,
-                        position: myLatLng,
-                        title: 'Hello World!'
-                    });
-                }
-            </script>
+    
             <script
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes&callback=initMap"
                 async defer></script>
@@ -182,50 +158,32 @@
                 <i class="zmdi zmdi-phone-in-talk"></i>
                 (+100) 345 6389
             </div> -->
-            <div class="container">
+            <div class="container text-center">
 
-                <div class="wrap-contact100">
-                    <form class="contact100-form validate-form">
-                        <span class="contact100-form-title">
-                            Contact Us
-                        </span>
+                <div class="col-xs-12 col-md-6">
+                    <div class="box-model ">
+                        <h1>Contact Information</h1>
+                        <h2>POSTAL ADDRESS</h2>
+                        <P>PO BOX 97-00618, RUARAKA</P>
+                        <h2>EMAIL ADDRESS</h2>
+                        <P>rommelotechnologies@gmail.com</P>
+                        <h2>PHYSICAL LOCATION</h2>
+                        <P>Bevkesh House, Ruiru Town along Thika road</P>
+                        <h2>CONTACT PERSON<br>Jane Njenga</h2>
+                        <P> Office Tel: 0722343243</P>
 
-                        <div class="wrap-input100 validate-input" data-validate="Name is required">
-                            <span class="label-input100">Name</span>
-                            <input class="input100" type="text" name="name" placeholder="Name...">
-                            <span class="focus-input100"></span>
-                        </div>
+                    </div>
 
-                        <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                            <span class="label-input100">Email</span>
-                            <input class="input100" type="text" name="email" placeholder="Email addess...">
-                            <span class="focus-input100"></span>
-                        </div>
-
-                        <div class="wrap-input100">
-                            <span class="label-input100">Phone</span>
-                            <input class="input100" type="text" name="phone" placeholder="Phone Number...">
-                            <span class="focus-input100"></span>
-                        </div>
-
-                        <div class="wrap-input100 validate-input" data-validate="Message is required">
-                            <span class="label-input100">Message</span>
-                            <textarea class="input100" name="message" placeholder="Questions/Comments..."></textarea>
-                            <span class="focus-input100"></span>
-                        </div>
-
-                        <div class="container-contact100-form-btn">
-                            <div class="wrap-contact100-form-btn">
-                                <div class="contact100-form-bgbtn"></div>
-                                <button class="contact100-form-btn">
-                                    Send
-                                </button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
+
+
             </div>
-        </div>
+        <style>
+            h2{
+                color: blue;
+                font-size: 125%;
+            }
+        </style>
     </div>
 
 
